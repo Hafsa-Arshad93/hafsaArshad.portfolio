@@ -1,0 +1,80 @@
+.work-section {
+    background: linear-gradient(135deg, #fef9f5, #f3fff9, #f6faff);
+    color: #1b1a1a;
+}
+
+.work-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #1b1a1a;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1b1a1a;
+    border-bottom: 2px solid #fbd38d;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.project-card h4 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.project-card a {
+    background-color: hsl(56, 83%, 84%);
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: hsl(56, 83%, 70%);
+}
+
+@media (max-width: 1024px) {
+    .project-card img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card img {
+        height: 180px;
+    }
+}
