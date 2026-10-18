@@ -43,9 +43,16 @@ border-bottom: 2px solid rgb(27, 26, 26);
 
 .head {
     display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    align-items: center;
     padding-right: 1rem;
+     padding-left: 1rem;
     width: 100%;
+    justify-self: stretch;
+  box-sizing: border-box;
     margin-top: 1rem;
     padding-bottom: 1.2rem;
     padding-top: 1.2rem;
@@ -54,9 +61,12 @@ border-bottom: 2px solid rgb(27, 26, 26);
     animation: slowFloat 5s ease-in-out infinite;
 }
 .head h1 {
-    font-size: 3rem;
+      font-size: 2.8rem;
     font-weight: 200;
-    
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
 }
 
 .container1 {
@@ -98,7 +108,7 @@ border-bottom: 2px solid rgb(27, 26, 26);
 
 .tagline {
     background: linear-gradient(135deg, #fffdf7, #ffeaf2);
-    height: 12rem;
+    height: 14rem;
     line-height: 1.5;
     border-radius: 5rem;
     border: 1px solid black;
@@ -461,8 +471,7 @@ border-bottom: 2px solid rgb(27, 26, 26);
 
 @media (min-width: 1024px) {
     .head {
-        display: grid;
-        align-items: center;
+    
         padding-right: 8rem;
         margin-top: 0.4rem;
         padding-bottom: 0.1rem;
