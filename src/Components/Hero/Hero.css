@@ -178,7 +178,7 @@ border-bottom: 2px solid rgb(27, 26, 26);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 399px) {
+@media (min-width: 300px) {
     .sticker2 {
         right: -8%;
         top: -6%;
@@ -196,8 +196,10 @@ border-bottom: 2px solid rgb(27, 26, 26);
 
     }
     .resume-btn {
-        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        margin-top: 0.7rem;
         padding: 0 0.4rem;
+        margin-bottom: 0.7rem;
     }
 }
 
@@ -340,9 +342,12 @@ border-bottom: 2px solid rgb(27, 26, 26);
         margin-top: 2rem;
         margin-bottom: 1rem;
         align-items: flex-start;
-        padding-left: 6rem;
+        padding-left: 5rem;
     }
-
+.head h1 {
+    text-align: left;
+    font-size: 3.2rem;
+}
     .mobile-break {
         display: none;
     }
@@ -381,7 +386,7 @@ border-bottom: 2px solid rgb(27, 26, 26);
 
     .sticker2 {
         top: -11%;
-        right: 5%;
+        right: 3%;
     }
      .resume-btn {
         margin-top: 1rem;
@@ -422,6 +427,7 @@ border-bottom: 2px solid rgb(27, 26, 26);
     .head {
         padding-left: 6rem;
     }
+   
 .image-top{
     height: 21rem;
 }
@@ -451,7 +457,9 @@ border-bottom: 2px solid rgb(27, 26, 26);
   .head  {
     padding-left: 9rem;
     }
-
+ .head h1 { 
+        font-size: 4.3rem;
+    }
     .container1 {
         margin-bottom: 0;
     }
@@ -487,11 +495,14 @@ border-bottom: 2px solid rgb(27, 26, 26);
 /* 1024px and above */
 
 @media (min-width: 1024px) {
-    .head {
-    
-        padding-right: 8rem;
+    .head { 
         margin-top: 0.4rem;
         padding-bottom: 0.1rem;
+    }
+    .head h1 { 
+        font-size: 4.3rem;
+                padding-left: 3rem;
+
     }
 
     .image-top {
@@ -509,13 +520,33 @@ border-bottom: 2px solid rgb(27, 26, 26);
     }
 
     .sticker2 {
-        top: -10%;
-        right: 1%;
-        width: clamp(250px, 30vw, 400px);
+        top: -15%;
+        right: -2%;
+        width: clamp(300px, 40vw, 500px);
     }
      .resume-btn {
         margin-top: 0.3rem;
 }
+}
+@media (min-width: 1100px) {
+    .head{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 1rem 0;
+    }
+     .head h1 {
+        align-items: center;
+        justify-content: center;
+    }
+     .sticker2 {
+        top: -11%;
+        right: -1%;
+                width: clamp(300px, 30vw, 500px);
+
+
+    }
 }
 
 @media (min-width: 1200px) {
@@ -536,7 +567,9 @@ border-bottom: 2px solid rgb(27, 26, 26);
 
     .sticker2 {
         top: -13%;
-        right: 3%;
+        right: 2%;
+                width: clamp(300px, 30vw, 500px);
+
     }
        .resume-btn {
         margin-top: 0.7rem;
