@@ -88,6 +88,8 @@ radial-gradient(circle at 85% 75%, rgba(235, 255, 240, 0.7), transparent 50%),
 
 .contact-btn {
         background-color: #b8daeb;
+            margin-bottom: 0;
+
 }
 
 .certification-btn {
