@@ -1,5 +1,4 @@
-import "./about.css";
-// import profile from "../assets/profile.png"; // your image
+import "./About.css";
 
 function About() {
   return (
